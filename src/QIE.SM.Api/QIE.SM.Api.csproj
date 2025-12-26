@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../QIE.SM.Api.Middleware/QIE.SM.Api.Middleware.csproj" />
+    <ProjectReference Include="../QIE.SM.Application/QIE.SM.Application.csproj" />
+    <ProjectReference Include="../QIE.SM.Contracts/QIE.SM.Contracts.csproj" />
+    <ProjectReference Include="../QIE.SM.Infrastructure/QIE.SM.Infrastructure.csproj" />
+    <ProjectReference Include="../QIE.SM.SharedKernel/QIE.SM.SharedKernel.csproj" />
+  </ItemGroup>
+</Project>
