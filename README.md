@@ -23,6 +23,8 @@ Clean Architecture dependencies are enforced in project references:
 - Api depends on Application + Contracts + Api.Middleware + Infrastructure + SharedKernel.
 - Workers depends on Application + Infrastructure + Contracts + SharedKernel.
 
+For a full architecture specification, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
 ## Logging and ELK
 
 Both the API and workers emit JSON logs to standard output using the built-in JSON console formatter. These logs are compatible with log collectors such as Filebeat or Fluent Bit for ingestion into Elasticsearch (ELK).
